@@ -1,63 +1,57 @@
-body{
+body {
     margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #fce4ec;
+    /* Light Pink Background */
 
 }
 
-.container{
-    
+.container {
+
     display: flex;
-    flex-direction: row;
-    justify-content: center; 
+    justify-content: center;
     align-items: center;
-    
-    background-color: lightskyblue;
     height: 100vh;
-    width: 100vw;
-
-
-    border: 5px solid green;
-
-    box-sizing: border-box;
-
 }
 
- 
-.login-card {
-    height: 250px;  
-    min-width: 250px; 
-    max-width: 300px;
 
-    box-sizing: border-box;
-    box-shadow: 6px 6px 15px 2px rgba(23,22,22,0.75);
-    border-radius: 10px;
+.login-card {
+    width: 300px;
     padding: 20px;
     text-align: center;
-    background-color: #3a3a3a;
+    background-color: #ff4081;
+    /* Pink Card Background */
+    box-shadow: 6px 6px 15px 2px rgba(0, 0, 0, 0.1);
+    border-radius: 15px;
 
-    
-   
 }
-    
+
+.login-card h1 {
+    color: #fff;
+    font-size: 24px;
+}
+
+.login-card form {
+    margin-top: 20px;
+}
+
 .login-card input {
     width: 100%;
     margin-bottom: 10px;
     padding: 10px;
     box-sizing: border-box;
-    border: 1px solid #ccc; 
-    border-top: 0px;
-    border-left: 0px;
-    border-right: 0px;
-  
-  }
+    border: none;
+    border-radius: 5px;
+}
 
-  .login-card button{
+.login-card button {
     width: 100%;
     padding: 10px;
     box-sizing: border-box;
     border: none;
     border-radius: 5px;
-    background-color: #4caf50;
+    background-color: #ff6e96;
+    /* Darker Pink Button */
     color: #fff;
     cursor: pointer;
-
-  }
+}
