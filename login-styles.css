@@ -1,57 +1,16 @@
-body {
+* {
     margin: 0;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background-color: #fce4ec;
-    /* Light Pink Background */
-
-}
-
-.container {
-
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-}
-
-
-.login-card {
-    width: 300px;
-    padding: 20px;
-    text-align: center;
-    background-color: #ff4081;
-    /* Pink Card Background */
-    box-shadow: 6px 6px 15px 2px rgba(0, 0, 0, 0.1);
-    border-radius: 15px;
-
-}
-
-.login-card h1 {
-    color: #fff;
-    font-size: 24px;
-}
-
-.login-card form {
-    margin-top: 20px;
-}
-
-.login-card input {
-    width: 100%;
-    margin-bottom: 10px;
-    padding: 10px;
+    padding: 0;
     box-sizing: border-box;
-    border: none;
-    border-radius: 5px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
 }
-
-.login-card button {
-    width: 100%;
-    padding: 10px;
-    box-sizing: border-box;
-    border: none;
-    border-radius: 5px;
-    background-color: #ff6e96;
-    /* Darker Pink Button */
-    color: #fff;
-    cursor: pointer;
+html, body{
+    display: grid;
+    height: 100%;
+    place-items: center;
+}
+.wrapper{
+    max-width: 400px;
+    background: rgb(171, 207, 171);
+    padding: 70px;   
 }
