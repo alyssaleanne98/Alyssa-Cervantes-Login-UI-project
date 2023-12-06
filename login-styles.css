@@ -10,27 +10,23 @@ html, body{
     place-items: center;
 }
 .wrapper{
-    max-width: 400px;
+    max-width: 390px;
     background: rgb(171, 207, 171);
-    padding: 70px;   
-    border-radius: 10px;
-    display: flex;
-    width: 220%;    
+    padding: 30px;   
+    box-shadow: 0px 15px 20px rgb(0,0,0,0.1);
+    border-radius: 5px;
+       
 }
-.text-title {
-    width: 50%;
-    font-size: 35px;
-    font-weight: 300;
-    text-align: center;
+.wrapper .text-title {
     display: flex;
-    width: 220%;  
+    width: 200%;
 }
-/* .login .signup {
+.wrapper .text-title .login {
     width: 50%;
     font-size: 35px;
     font-weight: 600;
     text-align: center;
-} */
-.wrapper .container {
+}
+.wrapper .sub-container {
     width: 100%;
 }
