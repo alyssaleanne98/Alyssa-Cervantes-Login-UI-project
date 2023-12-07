@@ -10,11 +10,11 @@ html, body{
     place-items: center;
 }
 .wrapper{
-    max-width: 390px;
-    background: rgb(171, 207, 171);
-    padding: 30px;   
+    background: rgb(249, 251, 249);
+    padding: 35px;   
     box-shadow: 0px 15px 20px rgb(0,0,0,0.1);
-    border-radius: 5px;
+    border-radius: 15px;
+    background: linear-gradient(#e66465, #9198e5);
        
 }
 .wrapper .text-title {
@@ -23,10 +23,23 @@ html, body{
 }
 .wrapper .text-title .login {
     width: 50%;
-    font-size: 35px;
+    font-size: 37px;
     font-weight: 600;
     text-align: center;
+    padding: 10px;
 }
 .wrapper .sub-container {
     width: 100%;
 }
+.sub-container .field{
+    height: 100%;
+    width: 100%;
+    outline: none;
+    padding-left: 15px;
+    font-size: 17px;
+    padding: 10px;
+}
+
+
+
+
